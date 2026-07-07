@@ -102,8 +102,15 @@ We use the **v2 submission schema** (`online-mind2web-v2`) for trajectory submis
 
 Each submission is a directory per task containing a `result.json` and a `trajectory/` folder with per-step screenshots. The `result.json` follows the v2 schema with fields including `schema_version`, `task`, `task_id`, `agent_final_answer`, `reference_length`, and an `action_history` of structured step objects.
 
-**Review policy**
-- **Auto-eval**: We provide free review for auto-eval submissions.
+**Review and Leaderboard policy**
+
+**To appear on the leaderboard, a submission must include both auto-eval and
+human-eval results for the full task set, submitted together.** We report
+auto-evaluated and human-evaluated success rates as separate entries, and the
+human-eval result is the authoritative score used for ranking. Submissions that
+provide only auto-eval or only human-eval will not be listed.
+
+- **Auto-eval**: We provide free review for the WebJudge auto-eval portion of a submission.
 - **Human eval**: We have outsourced human evaluation for reviewing submissions. See the [full pricing and review details](./data/schema_v2/HUMAN_EVALUATION_PRICING.md).
 - **Academic submissions**: For submissions from academia, the Online-Mind2Web team can still provide free evaluation. The turnaround time is usually longer than outsourced human evaluation, so please notify us **1-2 weeks in advance**.
 
