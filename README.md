@@ -30,6 +30,7 @@
 # Online-Mind2Web benchmark
 
 ## News
+* [07/08/2026] We updated 18 tasks that were outdated / invalid based on website updates. Please check out the updated tasks! 
 * [05/23/2026] We introduce the [**v2 submission schema**](./data/schema_v2/README.md) to better facilitate human evaluation of your submissions. We have also outsourced human evaluation, which means your submissions can now be reviewed within a few days. See the [Submission](#submission) section for details.
 * [11/03/2025] We’ve updated 36 tasks that are no longer valid or involve websites with CAPTCHA verification. Please check out the updated tasks!
 * [07/08/2025] 🎉 Online-Mind2Web has been accepted to COLM 2025!
@@ -104,14 +105,12 @@ Each submission is a directory per task containing a `result.json` and a `trajec
 
 **Review and Leaderboard policy**
 
-**To appear on the leaderboard, a submission must include both auto-eval and
-human-eval results for the full task set, submitted together.** We report
-auto-evaluated and human-evaluated success rates as separate entries, and the
-human-eval result is the authoritative score used for ranking. Submissions that
-provide only auto-eval or only human-eval will not be listed.
+**For commercial submissions to appear on the leaderboard, a submission must include both auto-eval and
+human-eval results for the full task set, submitted together.** We report auto-evaluated and human-evaluated success rates as separate entries, and the human-eval result is the authoritative score used for ranking. Submissions that provide only auto-eval or only human-eval will not be listed. _(This does not apply to academic submissions)_
 
 - **Auto-eval**: We provide free review for the WebJudge auto-eval portion of a submission.
 - **Human eval**: We have outsourced human evaluation for reviewing submissions. See the [full pricing and review details](./data/schema_v2/HUMAN_EVALUATION_PRICING.md).
+
 - **Academic submissions**: For submissions from academia, the Online-Mind2Web team can still provide free evaluation. The turnaround time is usually longer than outsourced human evaluation, so please notify us **1-2 weeks in advance**.
 
 Examples for both formats are available under [`data/example/`](./data/example/) (`example_v1/` and `example_v2/`). For the full schema specification, action dictionary, validation rules, and migration guide from v1, see the [v2 schema README](./data/schema_v2/README.md). For submission instructions, leaderboard access, and submission status, visit the [Leaderboard](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard).
