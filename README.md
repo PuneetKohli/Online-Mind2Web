@@ -49,7 +49,7 @@ We will regularly update Online-Mind2Web by replacing outdated or invalid tasks 
 To ensure fair comparisons, we will aim to keep the updated tasks on the same websites as before and with a similar reference length. Additionally, once agent performance saturates on Online-Mind2Web, we will also revise simple tasks to preserve its long-term value.
 
 ### Update History
-#### 2026/05/15
+#### 2026/07/08
 <details>
 <summary>🧩 Updated Task IDs</summary>
 ['64345c365f544375357c7b67917f08a0_070826', 'a69d2934fe54fef165490a5a2d95bf38_070826', '0b2623e9fa5cea997f76490bcbc5220f_070826', '0b838cd54f826c59c71f600c56b89a11_070826', '157f4a79d55e8fa3fd55ba772ba40fbc_070826', '47186fac8e7c7277af01144644eb4e0b_070826', '824eb7bb0ef1ce40bfd49c12182d9428_070826', '9d090a15c214eb070d9caa8a034d03c1_070826', 'e24662008c3be5d56f986f232fcec447_070826', 'fc53ddd3421411a41c1020a3fdc84ec4_070826', '816851ff92ff0219acf4364dcc2c4692_070826', '59912927c1fddee6ded8a49986896bc2_070826', '046138801a05ddf56ad94e8672942496_070826', '199be0b54a436daee74247971fc684ee_070826', 'ba2a469af584f16da93ce6a7430cf7e5_070826', '3443e9c3151fef19a3c3a45eb2c13640_070826', '9ed3827266b3b804f485859c3d00401e_070826']
